@@ -1,5 +1,0 @@
-print("My name is Utsav Tamrakar." ,"My age is 20.")
-print("My name is Utsav Tamrakar.")
-print("My age is 20.")
-print(5)
-print(5+10)
