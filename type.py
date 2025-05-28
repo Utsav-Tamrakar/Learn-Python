@@ -16,3 +16,4 @@ print(f"{names[2]} salary is {salary[2]}")
 
 print(names[1])
 print(names[0])
+#in list ,it is changeable value 
