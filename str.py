@@ -145,3 +145,25 @@ print(txt)
 # translate()	Returns a translated string
 # upper()	Converts a string into upper case
 # zfill()	Fills the string with a specified number of 0 values at the beginning
+
+
+
+#functions that returns boolean values
+def myfunc() :
+  return True
+print(myfunc())
+
+#Print "YES!" if the function returns True, otherwise print "NO!":
+
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+  
+# Check if an object is an integer or not:
+
+x = 200
+print(isinstance(x, int))
