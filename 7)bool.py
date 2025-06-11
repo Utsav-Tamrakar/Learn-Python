@@ -1,3 +1,14 @@
+#a and b have same value so there location are same...but c have different value so have different address....
+a=10
+b=10
+print(a is b)
+c=a
+print(c is b)
+c=20
+print(c is b)
+ 
+ 
+ 
 #booleran represents one of two values: True or False
 print(10 > 9)
 print(10 == 9)
@@ -24,7 +35,6 @@ print(bool(x))
 print(bool(y))
 
 #Most values are True except empty strings  , 0
-
 bool(False)
 bool(None)
 bool(0)
@@ -33,4 +43,6 @@ bool(())
 bool([])
 bool({})
 
- 
+#nonetype
+z=None
+print(type(z))
