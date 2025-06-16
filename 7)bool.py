@@ -42,7 +42,3 @@ bool("")
 bool(())
 bool([])
 bool({})
-
-#nonetype
-z=None
-print(type(z))
