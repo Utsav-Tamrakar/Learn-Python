@@ -19,6 +19,10 @@ print(x << 1)  # 10, binary: 101 << 1 = 1010 (shifts bits to the left)
 print(x << 3)  # 10, binary: 101 << 3 = 101000 (shifts bits to the left)
 
 #right shift operation
-y=101
-print(y >> 1)  # 2, binary: 101 >> 1 = 10 (shifts bits to the right)11
-print(y >>3)
+y=5
+print(y >> 1)  # 2, binary: 101 >> 1 = 010 (shifts bits to the right)
+print(y >> 3) # 0 , binary:101 >> 3 = 000 (shifts bits to the right)
+ 
+#binary NOT operation\
+x=5
+print(~x)  # -6, binary: ~101 = ...11111010 (inverts all bits, two's complement representation)
