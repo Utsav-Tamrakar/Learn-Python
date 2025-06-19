@@ -1,19 +1,18 @@
-#num1=50
-#num2=10
-num1=int(input("Enter a number : "))
-num2=int(input("Enter a number : "))
-##calculation 
-sum = num1 + num2
-diff = num1 - num2
-div = num1 / num2
-mul = num1 * num2
-mod = num1 % num2
-cube = num1 ** 3
-
-##display
-print(f"Sum is {sum}")
-print(f"Difference is {diff}")
-print(f"Division is {div}")
-print(f"Multiplication is {mul}")
-print(f"Modulus is {mod}")
-print(f"Cube is {cube}")
+import sys
+print("""Please select an operation:
+      1) Addition
+      2) Subtraction
+      3) Multiplication""")
+choice=int(input("Select operation from 1-3 : "))
+if choice not in (1,2,3):
+  print("Invalid choice")
+  sys.exit("Exiting the program")
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+if choice == 1:
+  print("Result of addition operation is: ",a+b)
+elif choice == 2:
+  print("Result of subtraction operation is: ",a-b)
+elif choice == 3:
+  print("Result of multiplication operation is: ",a*b)
+print("Thank you for using the calculator!")
