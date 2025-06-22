@@ -13,3 +13,5 @@ elif n < 0:
     print(n, "is a negative number.")
 else:
     print("The number is zero.")
+
+# checks if number is divisible by 5 or not

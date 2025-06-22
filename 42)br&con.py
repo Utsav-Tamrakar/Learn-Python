@@ -43,3 +43,6 @@ while i<=5:
     continue
   print(i,i*i)
   i += 1
+  
+  
+  

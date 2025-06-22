@@ -11,4 +11,4 @@ print(x is y) #True
 #Examples of Container 
 l1=[10,20,30]
 l2=[10,20,30]
-print(l1 is l2) #False, because they are different objects in memory
+print(l1 is l2) #False, because they are differreny objects in memory
