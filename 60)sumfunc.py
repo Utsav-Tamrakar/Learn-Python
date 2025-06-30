@@ -11,9 +11,13 @@ print(sum(10,20,30))
 print(sum(10))
 print(sum())
 
-#To print it as id ,name and a price we simply use variable length arguments which take input as a tuple and placed it into a small bracket
+#To print it as id ,name and a price we simply use variable length arguments which take input as a tuple and placed it into a small bracket   
 def printElements(*elements):
   print(elements)
   
 printElements(101,"abc",100)
 printElements(102,"xyz",200)
+
+
+#we can't work like id=... ,name =...,price=.... on normal variable length arguments for such we need keyword variable length arguments....
+#Normal variable length arguments are based on tuples whereas keyword variable length arguments are based on dictionary...
