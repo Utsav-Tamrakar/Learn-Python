@@ -15,5 +15,5 @@ def printDetails(id,**details):
 
 printDetails(100,name="ram",price=1000)
 print()
-printDetails(101,name="shyam",price=2000)
+printDetails(101,name="shyam",color="black")
 print()
