@@ -6,6 +6,7 @@ y="Tamrakar"
 #y = temp
 
 x,y = y,x
-print(x)
-print(y)
+print("x:",x)
+print("y:",y)
+
 
