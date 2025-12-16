@@ -1,4 +1,7 @@
-# Set is unordered,unchangeable and unindexed 
+#Set are mutable ,unindexed and donot contain duplicate values
+#It can store none values,Implemented using curly braces {},
+# Set is unordered,unchangeable,unindexed and mutable
+# duplicate values in set are ignored
 myList = {'Python','Java','C++'}
 print(type(myList))
 print(myList)   
@@ -50,3 +53,22 @@ print(s1 <= s2)
 print(s1<s2)
 print(s1 >= s2)
 print(s1 > s2)
+
+#using set() function
+set1 = set()
+print(set1)
+
+set1 = set("GeeksForGeeks")
+print(set1)
+
+# Creating a Set with the use of a List
+set1 = set(["Geeks", "For", "Geeks"])
+print(set1)
+
+# Creating a Set with the use of a tuple
+tup = ("Geeks", "for", "Geeks")
+print(set(tup))
+
+# Creating a Set with the use of a dictionary
+d = {"Geeks": 1, "for": 2, "Geeks": 3}
+print(set(d))
