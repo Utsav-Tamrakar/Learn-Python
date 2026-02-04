@@ -16,3 +16,16 @@ print(age)
 print(name)
 print(weight)
 
+a=125
+print(a)
+a1=5
+b="Utsav"
+print(b)
+print(a+a1)
+c=True
+d=None
+#to know the type of data
+print("the type of a :",type(a))
+print("the type of b :",type(b))
+print("the type of c :",type(c))
+print("the type of d :",type(d))
